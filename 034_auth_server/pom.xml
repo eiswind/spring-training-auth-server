@@ -23,10 +23,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+        <!-- tag::dependencies[] -->
         <dependency>
-            <groupId>org.springframework.security.experimental</groupId>
+            <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-oauth2-authorization-server</artifactId>
-            <version>0.1.1</version>
+            <version>0.2.0</version>
         </dependency>
+        <!-- end::dependencies[] -->
     </dependencies>
 </project>
